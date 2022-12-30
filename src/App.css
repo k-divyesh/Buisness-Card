@@ -32,8 +32,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 29px;
 
+    border-radius: 10px;
     background-color: var(--innerBG);
 }
 
@@ -94,7 +95,7 @@ body {
 }
 
 .info > .buttons > * {
-    padding: 9px 20px;
+    padding: 9px 19px;
     border-radius: 10px;
     border: none;
 }
@@ -111,4 +112,36 @@ body {
 .info > .buttons > .linkedIn {
     background-color: #5093e2;
     color: white;
+}
+
+.about,
+.interests {
+    color: white;
+    width: 317px;
+    padding: 0 35px;
+    margin: 0px;
+}
+
+.h4Heading {
+    margin: 0;
+    font-style: bold;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    vertical-align: top;
+    color: #f5f5f5;
+}
+
+.about > p,
+.interests > p {
+    margin: 4px 0px;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: left;
+    vertical-align: top;
+    color: #dcdcdc;
+}
+
+.interests {
+    padding-bottom: 24px;
 }
