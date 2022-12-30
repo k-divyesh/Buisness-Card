@@ -44,19 +44,19 @@ body {
     align-items: center;
 }
 
-.general {
+.info > .general {
     display: flex;
     flex-direction: column;
     gap: 7px;
     margin: 22px auto;
 }
 
-.general > * {
+.info > .general > * {
     padding: 0;
     margin: 0;
 }
 
-.general > .name {
+.info > .general > .name {
     font-style: bold;
     font-size: 25px;
     line-height: 100%;
@@ -66,7 +66,7 @@ body {
     color: #fff;
 }
 
-.general > .jobTitle {
+.info > .general > .jobTitle {
     font-size: 12.8px;
     line-height: 100%;
     text-align: center;
@@ -75,10 +75,40 @@ body {
     color: #f3bf99;
 }
 
-.general > .websiteLink {
+.info > .general > .websiteLink {
     font-size: 10.24px;
     line-height: 150%;
     text-align: center;
     vertical-align: top;
     color: #f5f5f5;
+}
+
+.info > .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 17px;
+
+    padding: 0;
+    margin: 0;
+}
+
+.info > .buttons > * {
+    padding: 9px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.info > .buttons > .email {
+    background-color: white;
+    color: #374151;
+}
+
+.info > .buttons > * > img {
+    margin-right: 9.6px;
+}
+
+.info > .buttons > .linkedIn {
+    background-color: #5093e2;
+    color: white;
 }

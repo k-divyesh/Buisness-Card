@@ -12,11 +12,11 @@ function Info() {
                 <a className="websiteLink">laurasmith.website</a>
             </div>
             <div className="buttons">
-                <button>
+                <button className="email">
                     <img src={EmailIcon} alt="" />
                     Email
                 </button>
-                <button>
+                <button className="linkedIn">
                     <img src={LinkedInIcon} alt="" /> LinkedIn
                 </button>
             </div>
