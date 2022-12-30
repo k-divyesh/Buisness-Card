@@ -1,0 +1,84 @@
+:root {
+    --outerBG: #23252c;
+    --innerBG: #1a1b21;
+    --FooterBG: #161619;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: inter, arial, sans-serif;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--outerBG);
+}
+
+.Container {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    background-color: var(--innerBG);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin: 22px auto;
+}
+
+.general > * {
+    padding: 0;
+    margin: 0;
+}
+
+.general > .name {
+    font-style: bold;
+    font-size: 25px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: center;
+
+    color: #fff;
+}
+
+.general > .jobTitle {
+    font-size: 12.8px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: top;
+
+    color: #f3bf99;
+}
+
+.general > .websiteLink {
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    vertical-align: top;
+    color: #f5f5f5;
+}
